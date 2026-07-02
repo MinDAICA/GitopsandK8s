@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: guestbook-config
-  namespace: default
-data:
-  DARK_MODE_ENABLED: "false"   # Feature flag: tắt mặc định
